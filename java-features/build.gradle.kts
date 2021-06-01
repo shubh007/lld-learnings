@@ -20,13 +20,10 @@ tasks.getByName<Test>("test") {
     useJUnitPlatform()
 }
 tasks.create("Hello"){
-    print("Hello Printed")
+    print("Hello Printed\n")
 }
+
 application {
     // Define the main class for the application.
-    mainClass.set("io.finility.lld.learnings.App2")
-}
-application {
-    // Define the main class for the application.
-    mainClass.set("io.finility.lld.learnings.App3")
+    mainClass.set("io.finility.lld.learnings.Start")
 }
